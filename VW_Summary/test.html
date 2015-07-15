@@ -112,26 +112,26 @@
     function start() {
 
         var rp1 = radialProgress(document.getElementById('div1'))
-                .label("RADIAL 1")
+                .label("Number of Robots")
                 .onClick(onClick1)
                 .diameter(150)
-                .value(78)
+                .value(100)
                 .render();
 
         var rp2 = radialProgress(document.getElementById('div2'))
-                .label("RADIAL 2")
+                .label("Completion Rate")
                 .onClick(onClick2)
                 .diameter(150)
-                .value(132)
+                .value(90)
                 .render();
 
         var rp3 = radialProgress(document.getElementById('div3'))
-                .label("RADIAL 3")
+                .label("Workforce Utilisation")
                 .onClick(onClick3)
                 .diameter(150)
                 .minValue(100)
                 .maxValue(200)
-                .value(150)
+                .value(50)
                 .render();
 
     }
